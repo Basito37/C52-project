@@ -1,0 +1,44 @@
+.header{
+ background-color: black;
+ color: white;
+ display: flex;
+ justify-content: space-between;  
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: white;
+
+}
+#Dinosaur{
+    color: green;
+    font-size: 24px;
+
+}
+#Dragon{
+    color: red;
+    font-size: 24px;
+
+}
+#Swan{
+    color: indianred;
+    font-size: 24px;
+}
+.link:hover{
+    color: blue;
+}
+a:visited{
+    color: blueviolet;
+}
+.link:hover{ transform: scale(1.2); }
